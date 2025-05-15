@@ -11,16 +11,8 @@
      alert (idadeMae-idadeUsuario);
      alert("Sua mãe foi mãe aindo joven")
 
-//      for (i = 0 ; i <= idadeUsuario && idadeUsuario < 18 ; i++) {
-//      console.log("Na primeira iteração:  "+ i + ", " +idadeUsuario+ " anos")
-//    }
-
-    for  (const idadeUsuario of menorDeIdade){
-    if(menorDeIdade<18) {
-      
-        alert("Você está proibido andar só!")
-        return menorDeIdade
-    }
+      for (i = 0 ; i <= idadeUsuario && idadeUsuario < 18 ; i++) {
+      console.log("Na primeira iteração:  "+ i + ", " +idadeUsuario+ " anos")
    }
 
   }
